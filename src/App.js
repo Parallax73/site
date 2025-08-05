@@ -31,7 +31,7 @@ function App() {
     <section>
       <h1 id="thelinuxcast">Gabriel Leite</h1>
       <pre>
-        <code>Desenvolvedor Web | Full Stack | Fotogrametria 3D</code>
+        <code>Software Engineer | Tech Afficionado</code>
       </pre>
       <p>
         São Paulo-SP | gabrielsantos0210@gmail.com
