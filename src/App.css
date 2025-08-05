@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'comicsans';
+  src: url('assets/fonts/ComicMono.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  font-family: "comicsans", monospace;
+  font-size: 1.1em;
+  background-color: #282828;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.4em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+em, code, pre {
+  font-family: "comicsans", monospace;
+}
+
+h1, h2 {
+  font-size: 1.1em;
+}
+
+h1#thelinuxcast {
+  font-size: 1.3em;
+}
+
+h1 {
+  color: #fe8019;
+  text-align: center;
+}
+
+h2 {
+  color: lime;
+}
+
+h2#pods, h2#Videos, h2#blog {
+  color: #8ec07c;
+}
+
+h3 {
+  color: magenta;
+  font-size: 0.8em;
+}
+
+h1::before {
+  content: "# ";
+}
+h2::before {
+  content: "## ";
+}
+h3::before {
+  content: "### ";
+}
+
+.lc {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 130px;
+  height: 150px;
+}
+
+.ft {
+  font-size: 12px;
+}
+
+div.list {
+  margin-left: 10px;
+  padding-left: 40px;
+}
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+ul.menu li {
+  display: inline;
+  font-size: 18px;
+}
+
+div.menu {
+  display: table;
+  margin: 0 auto;
+}
+
+div.player {
+  display: flex;
+}
+
+div.blogs {
+  padding-bottom: 200px;
+}
+
+section {
+  width: 50%;
+  margin: 5em auto 0% auto;
+}
+
+blockquote {
+  text-align: center;
+  margin: 0 auto;
+  width: auto;
+  display: table;
+}
+
+code, pre {
+  font-size: 1.0em;
+  color: wheat;
+  text-align: center;
+}
+
+a {
+  color: #83a598;
+  text-decoration: none;
+}
+
+footer a::before {
+  content: "";
+}
+
+a:hover {
+  transition: background-color 0.1s, color 1.1s;
+  background-color: #fabd2f;
+  color: #1d2021;
+}
+
+span#url {
+  display: inline-block;
+  width: 27em;
+}
+
+span#name {
+  color: cyan;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1600px) {
+  section {
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+#cs {
+  text-indent: 5%;
 }
