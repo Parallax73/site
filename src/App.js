@@ -80,7 +80,7 @@ function App() {
       <ul>
         <li>
           <strong>Mozukai</strong>: Loja virtual com pipeline de fotogrametria 3D<br />
-          <em>Tecnologias:</em> React, FastAPI, ThreeJs, PostgreSQL, COLMAP, OpenMVS, OpenMVG
+          <em>Tecnologias:</em> React, FastAPI, ThreeJs, PostgreSQL, AliceVision
         </li>
         <li>
           <strong>Realtour</strong>: Marketplace e CRM para corretores<br />
