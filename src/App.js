@@ -96,7 +96,7 @@ function App() {
       <h2>Extra-curriculares</h2>
       <ul>
         <li>
-          <strong>Hackathon 2025 FMU</strong>: Extração de dados por exames veterinários<br />
+          <strong>Hackathon 2025 FMU</strong>: Extração de dados de exames veterinários<br />
           <em>Tecnologias:</em> Python, Pandas, Fitz
         </li>
         <li>
